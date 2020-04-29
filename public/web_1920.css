@@ -1,0 +1,1847 @@
+/*
+	@name web_1920
+*/
+/* Only edit this if you know what you are doing! */
+body { margin: 0px; padding: 0px; font-family:"Arial"; /*overflow-x:hidden;*/ }
+
+/* Only edit this if you know what you are doing! */
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+/* Only edit this if you know what you are doing! */
+div { position: absolute; }
+
+#content-container { display: table; position: relative; width: 1910px; height: 1361px; margin-left: auto; margin-right: auto;  }
+
+#_bg__web_1920 {
+	top: 0px;
+	left: 0px;
+	width: 1910px;
+	height: 1361px;
+	background:rgba(255,255,255,255);
+}
+
+#group_43 {
+	top: 956.31262207031px;
+	left: 0px;
+	width: 1910px;
+	height: 399.68737792969px;
+}
+
+#rectangle_24 {
+	top: 0px;
+	left: 0px;
+	width: 1910px;
+	height: 399.68737792969px;
+	background:rgba(25,25,25,255);
+}
+
+#group_36 {
+	top: 80px;
+	left: 1596px;
+	width: 199.65368652344px;
+	height: 28.02880859375px;
+}
+#linkedin {
+	top: 0px;
+	left: 87px;
+	width: 27.931884765625px;
+	height: 27.931884765625px;
+}
+
+#path_23 {
+	top: 9px;
+	left: 10px;
+	width: 18.052124023438px;
+	height: 19.117065429688px;
+}
+
+
+#path_24 {
+	top: 9px;
+	left: 0px;
+	width: 5.791259765625px;
+	height: 18.64794921875px;
+}
+
+
+#path_25 {
+	top: 0px;
+	left: 0px;
+	width: 6.708251953125px;
+	height: 6.73974609375px;
+}
+
+#instagram {
+	top: 0px;
+	left: 172px;
+	width: 28.02880859375px;
+	height: 28.02880859375px;
+}
+#group_31 {
+	top: 0px;
+	left: 0px;
+	width: 28.02880859375px;
+	height: 28.02880859375px;
+}
+#group_30 {
+	top: 0px;
+	left: 0px;
+	width: 28.02880859375px;
+	height: 28.02880859375px;
+}
+
+#path_21 {
+	top: 0px;
+	left: 0px;
+	width: 28.02880859375px;
+	height: 28.02880859375px;
+}
+
+#group_33 {
+	top: 7px;
+	left: 7px;
+	width: 14.014404296875px;
+	height: 14.014404296875px;
+}
+#group_32 {
+	top: 0px;
+	left: 0px;
+	width: 14.014404296875px;
+	height: 14.014404296875px;
+}
+
+#path_22 {
+	top: 0px;
+	left: 0px;
+	width: 14.014404296875px;
+	height: 14.014404296875px;
+}
+
+
+#ellipse_8 {
+	top: 6px;
+	left: 21px;
+	width: 1.867431640625px;
+	height: 1.867431640625px;
+	-ms-border-radius: 0.9337158203125px / 0.9337158203125px;
+	-o-border-radius: 0.9337158203125px / 0.9337158203125px;
+	-moz-border-radius: 0.9337158203125px / 0.9337158203125px;
+	-webkit-border-radius: 0.9337158203125px / 0.9337158203125px;
+	border-radius: 0.9337158203125px / 0.9337158203125px;
+	background:rgba(255,255,255,255);
+}
+
+#facebook__1_ {
+	top: 0px;
+	left: 0px;
+	width: 28.02880859375px;
+	height: 28.02880859375px;
+}
+
+#facebook__1__ek1 {
+	top: 0px;
+	left: 0px;
+	width: 28.02880859375px;
+	height: 28.02880859375px;
+}
+
+
+#___2020__uridium_technologies_ltd__all_rights_reserved_ {
+	top: 293px;
+	left: 717px;
+	width: 503.00006103516px;
+	height: 31px;
+	font-family: Proxima Nova;
+	font-size: 20px;
+	text-align: center;
+	color:#ffffff;
+}
+
+#group_72 {
+	top: 84px;
+	left: 84px;
+	width: 399px;
+	height: 24px;
+}
+
+#home {
+	top: 0px;
+	left: 0px;
+	width: 54px;
+	height: 28px;
+	font-family: Proxima Nova;
+	font-size: 18px;
+	text-align: left;
+	color:#ffffff;
+}
+
+
+#about {
+	top: 0px;
+	left: 106px;
+	width: 56px;
+	height: 28px;
+	font-family: Proxima Nova;
+	font-size: 18px;
+	text-align: left;
+	color:#ffffff;
+}
+
+
+#services {
+	top: 0px;
+	left: 213px;
+	width: 71px;
+	height: 28px;
+	font-family: Proxima Nova;
+	font-size: 18px;
+	text-align: left;
+	color:#ffffff;
+}
+
+
+#contact {
+	top: 0px;
+	left: 336px;
+	width: 68px;
+	height: 28px;
+	font-family: Proxima Nova;
+	font-size: 18px;
+	text-align: left;
+	color:#ffffff;
+}
+
+#address {
+	top: 137px;
+	left: 84px;
+	width: 702px;
+	height: 31px;
+}
+
+#address_ {
+	top: 0px;
+	left: 0px;
+	width: 82px;
+	height: 45px;
+	overflow: hidden;
+	font-family: Proxima Nova;
+	font-size: 20px;
+	text-align: left;
+	line-height: 20px;
+	color:#ffffff;
+}
+
+
+#__plot_15__mike_ejezie_street__faith_house___lekki_ph_1__lagos__nigeria {
+	top: 2px;
+	left: 101px;
+	width: 606px;
+	height: 31px;
+	font-family: Proxima Nova;
+	font-size: 20px;
+	text-align: left;
+	color:#ffffff;
+}
+
+
+#contact___2347032364108 {
+	top: 197px;
+	left: 76px;
+	width: 241px;
+	height: 31px;
+	font-family: Proxima Nova;
+	font-size: 20px;
+	text-align: center;
+	color:#ffffff;
+}
+
+#repeat_grid_1 {
+	top: 105px;
+	left: 112px;
+	width: 1686px;
+	height: 836px;
+	overflow:hidden;
+}
+
+#image_2 {
+	top: 0px;
+	left: 0px;
+	width: 836px;
+	height: 836px;
+}
+
+#__ek1 {
+	top: 0px;
+	left: 856px;
+	width: 836px;
+	height: 836px;
+}
+
+#image_2_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 836px;
+	height: 836px;
+	display:block;
+}
+
+#group_73 {
+	top: 0px;
+	left: -1.4866980314255px;
+	width: 1910px;
+	height: 91.410438537598px;
+}
+#group_42 {
+	top: 0px;
+	left: 0px;
+	width: 1910px;
+	height: 91.410438537598px;
+}
+
+#path_19 {
+	top: 0px;
+	left: 0px;
+	width: 1910px;
+	height: 91.410438537598px;
+}
+
+#group_1 {
+	top: 35px;
+	left: 1603px;
+	width: 208px;
+	height: 21px;
+}
+
+#about_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 52px;
+	height: 24px;
+	font-family: Proxima Nova;
+	font-size: 16px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#services_ek1 {
+	top: 0px;
+	left: 64px;
+	width: 67px;
+	height: 24px;
+	font-family: Proxima Nova;
+	font-size: 16px;
+	text-align: center;
+	color:#000000;
+}
+
+
+#contact_ek1 {
+	top: 0px;
+	left: 150px;
+	width: 63px;
+	height: 24px;
+	font-family: Proxima Nova;
+	font-size: 16px;
+	text-align: left;
+	color:#000000;
+}
+
+#home_run {
+	top: 36px;
+	left: 1559px;
+	width: 23.363403320312px;
+	height: 22.204608917236px;
+}
+
+#path_26 {
+	top: 0px;
+	left: 0px;
+	width: 23.36328125px;
+	height: 22.204608917236px;
+}
+
+
+#image_53 {
+	top: 30px;
+	left: 98px;
+	width: 146.63528442383px;
+	height: 33.802291870117px;
+}
+
+
+
+/* Add your custom CSS here */
+@media only screen and (min-width: 320px) {
+  /* For phones: */
+  	/*
+		@name mobile_300
+	*/
+	/* Only edit this if you know what you are doing! */
+	body { margin: 0px; padding: 0px; font-family:"Arial"; /*overflow-x:hidden;*/ }
+
+	/* Only edit this if you know what you are doing! */
+	img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+	/* Only edit this if you know what you are doing! */
+	div { position: absolute; }
+
+	#content-container { display: table; position: relative; width: 300px; height: 1021px; margin-left: auto; margin-right: auto;  }
+
+	#_bg__web_1920 {
+		top: 0px;
+		left: 0px;
+		width: 300px;
+		height: 1021px;
+		background:rgba(255,255,255,255);
+	}
+
+	#group_43 {
+		top: 615.31262207031px;
+		left: 0px;
+		width: 300px;
+		height: 405.68737792969px;
+	}
+
+	#rectangle_24 {
+		top: 0px;
+		left: 0px;
+		width: 300px;
+		height: 405.68737792969px;
+		background:rgba(25,25,25,255);
+	}
+
+	#group_36 {
+		top: 306px;
+		left: 46px;
+		width: 199.65380859375px;
+		height: 28.02880859375px;
+	}
+	#linkedin {
+		top: 0px;
+		left: 87px;
+		width: 27.931640625px;
+		height: 27.931884765625px;
+	}
+
+	#path_23 {
+		top: 9px;
+		left: 10px;
+		width: 18.05224609375px;
+		height: 19.117065429688px;
+	}
+
+
+	#path_24 {
+		top: 9px;
+		left: 0px;
+		width: 5.791015625px;
+		height: 18.648010253906px;
+	}
+
+
+	#path_25 {
+		top: 0px;
+		left: 0px;
+		width: 6.70849609375px;
+		height: 6.73974609375px;
+	}
+
+	#instagram {
+		top: 0px;
+		left: 172px;
+		width: 28.02880859375px;
+		height: 28.02880859375px;
+	}
+	#group_31 {
+		top: 0px;
+		left: 0px;
+		width: 28.02880859375px;
+		height: 28.02880859375px;
+	}
+	#group_30 {
+		top: 0px;
+		left: 0px;
+		width: 28.02880859375px;
+		height: 28.02880859375px;
+	}
+
+	#path_21 {
+		top: 0px;
+		left: 0px;
+		width: 28.02880859375px;
+		height: 28.02880859375px;
+	}
+
+	#group_33 {
+		top: 7px;
+		left: 7px;
+		width: 14.01416015625px;
+		height: 14.014404296875px;
+	}
+	#group_32 {
+		top: 0px;
+		left: 0px;
+		width: 14.01416015625px;
+		height: 14.014404296875px;
+	}
+
+	#path_22 {
+		top: 0px;
+		left: 0px;
+		width: 14.01416015625px;
+		height: 14.014404296875px;
+	}
+
+
+	#ellipse_8 {
+		top: 6px;
+		left: 21px;
+		width: 1.8671875px;
+		height: 1.867431640625px;
+		-ms-border-radius: 0.93359375px / 0.93359375px;
+		-o-border-radius: 0.93359375px / 0.93359375px;
+		-moz-border-radius: 0.93359375px / 0.93359375px;
+		-webkit-border-radius: 0.93359375px / 0.93359375px;
+		border-radius: 0.93359375px / 0.93359375px;
+		background:rgba(255,255,255,255);
+	}
+
+	#facebook__1_ {
+		top: 0px;
+		left: 0px;
+		width: 28.02880859375px;
+		height: 28.02880859375px;
+	}
+
+	#facebook__1__ek1 {
+		top: 0px;
+		left: 0px;
+		width: 28.02880859375px;
+		height: 28.02880859375px;
+	}
+
+
+	#___2020__uridium_technologies_ltd__all_rights_reserved_ {
+		top: 355px;
+		left: 7px;
+		width: 279px;
+		height: 17px;
+		font-family: Proxima Nova;
+		font-size: 11px;
+		text-align: center;
+		color:#ffffff;
+	}
+
+	#group_72 {
+		top: 33px;
+		left: 109px;
+		width: 74px;
+		height: 132px;
+	}
+
+	#home {
+		top: 0px;
+		left: 10px;
+		width: 60px;
+		height: 31px;
+		font-family: Proxima Nova;
+		font-size: 20px;
+		text-align: left;
+		color:#ffffff;
+	}
+
+
+	#about {
+		top: 70px;
+		left: 9px;
+		width: 61px;
+		height: 31px;
+		font-family: Proxima Nova;
+		font-size: 20px;
+		text-align: left;
+		color:#ffffff;
+	}
+
+
+	#services {
+		top: 35px;
+		left: 0px;
+		width: 79px;
+		height: 31px;
+		font-family: Proxima Nova;
+		font-size: 20px;
+		text-align: left;
+		color:#ffffff;
+	}
+
+
+	#contact {
+		top: 105px;
+		left: 2px;
+		width: 75px;
+		height: 31px;
+		font-family: Proxima Nova;
+		font-size: 20px;
+		text-align: left;
+		color:#ffffff;
+	}
+
+	#address {
+		top: 186px;
+		left: 10px;
+		width: 271px;
+		height: 52px;
+	}
+
+	#address_ {
+		top: 0px;
+		left: 100px;
+		width: 82px;
+		height: 45px;
+		overflow: hidden;
+		font-family: Proxima Nova;
+		font-size: 20px;
+		text-align: left;
+		line-height: 20px;
+		color:#ffffff;
+	}
+
+
+	#__plot_15__mike_ejezie_street__faith_house___lekki_ph_1__lagos__nigeria {
+		top: 40px;
+		left: 0px;
+		width: 276px;
+		height: 14px;
+		font-family: Proxima Nova;
+		font-size: 9px;
+		text-align: left;
+		color:#ffffff;
+	}
+
+
+	#contact___2347032364108 {
+		top: 258px;
+		left: 25px;
+		width: 241px;
+		height: 31px;
+		font-family: Proxima Nova;
+		font-size: 20px;
+		text-align: center;
+		color:#ffffff;
+	}
+
+	#repeat_grid_1 {
+		top: 115px;
+		left: 26px;
+		width: 248px;
+		height: 500px;
+		overflow:hidden;
+	}
+
+	#image_2 {
+		top: 0px;
+		left: 0px;
+		width: 244px;
+		height: 244px;
+	}
+
+	#__ek1 {
+		top: 250px;
+		left: 0px;
+		width: 244px;
+		height: 244px;
+	}
+
+	#image_2_ek1 {
+		top: 0px;
+		left: 0px;
+		width: 244px;
+		height: 244px;
+		display: block;
+	}
+
+	#group_73 {
+		top: 0px;
+		left: -1.48681640625px;
+		width: 300px;
+		height: 112.70656585693px;
+	}
+	#group_42 {
+		top: 0px;
+		left: 0px;
+		width: 300px;
+		height: 112.70656585693px;
+	}
+
+	#path_19 {
+		top: 0px;
+		left: 0px;
+		width: 300px;
+		height: 112.70656585693px;
+	}
+
+	#group_1 {
+		top: 80px;
+		left: 70px;
+		width: 213px;
+		height: 21px;
+	}
+
+	#about_ek1 {
+		top: 0px;
+		left: 0px;
+		width: 52px;
+		height: 24px;
+		font-family: Proxima Nova;
+		font-size: 16px;
+		text-align: left;
+		color:#000000;
+	}
+
+
+	#services_ek1 {
+		top: 0px;
+		left: 67px;
+		width: 67px;
+		height: 24px;
+		font-family: Proxima Nova;
+		font-size: 16px;
+		text-align: center;
+		color:#000000;
+	}
+
+
+	#contact_ek1 {
+		top: 0px;
+		left: 155px;
+		width: 63px;
+		height: 24px;
+		font-family: Proxima Nova;
+		font-size: 16px;
+		text-align: left;
+		color:#000000;
+	}
+
+	#home_run {
+		top: 81px;
+		left: 23px;
+		width: 23.25537109375px;
+		height: 22.204605102539px;
+	}
+
+	#path_26 {
+		top: 0px;
+		left: 0px;
+		width: 23.25537109375px;
+		height: 22.204605102539px;
+	}
+
+
+	#image_53 {
+		top: 30px;
+		left: 78px;
+		width: 145.95654296875px;
+		height: 33.64582824707px;
+	}
+}
+
+@media only screen and (min-width: 700px) {
+  /* For tablets: */
+  /*
+		@name tablet_700
+	*/
+	/* Only edit this if you know what you are doing! */
+	body { margin: 0px; padding: 0px; font-family:"Arial"; /*overflow-x:hidden;*/ }
+
+	/* Only edit this if you know what you are doing! */
+	img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+	/* Only edit this if you know what you are doing! */
+	div { position: absolute; }
+
+	#content-container { display: table; position: relative; width: 700px; height: 1748px; margin-left: auto; margin-right: auto;  }
+
+	#_bg__web_1920 {
+		top: 0px;
+		left: 0px;
+		width: 700px;
+		height: 1748px;
+		background:rgba(255,255,255,255);
+	}
+
+	#group_43 {
+		top: 1345.3126220703px;
+		left: 0px;
+		width: 700.0263671875px;
+		height: 405.68737792969px;
+	}
+
+	#rectangle_24 {
+		top: 0px;
+		left: 0px;
+		width: 700.0263671875px;
+		height: 405.68737792969px;
+		background:rgba(25,25,25,255);
+	}
+
+	#group_36 {
+		top: 274px;
+		left: 454px;
+		width: 199.65380859375px;
+		height: 28.02880859375px;
+	}
+	#linkedin {
+		top: 0px;
+		left: 87px;
+		width: 27.931884765625px;
+		height: 27.931884765625px;
+	}
+
+	#path_23 {
+		top: 9px;
+		left: 10px;
+		width: 18.052001953125px;
+		height: 19.117065429688px;
+	}
+
+
+	#path_24 {
+		top: 9px;
+		left: 0px;
+		width: 5.791259765625px;
+		height: 18.64794921875px;
+	}
+
+
+	#path_25 {
+		top: 0px;
+		left: 0px;
+		width: 6.708251953125px;
+		height: 6.73974609375px;
+	}
+
+	#instagram {
+		top: 0px;
+		left: 172px;
+		width: 28.028564453125px;
+		height: 28.02880859375px;
+	}
+	#group_31 {
+		top: 0px;
+		left: 0px;
+		width: 28.028564453125px;
+		height: 28.02880859375px;
+	}
+	#group_30 {
+		top: 0px;
+		left: 0px;
+		width: 28.028564453125px;
+		height: 28.02880859375px;
+	}
+
+	#path_21 {
+		top: 0px;
+		left: 0px;
+		width: 28.028564453125px;
+		height: 28.02880859375px;
+	}
+
+	#group_33 {
+		top: 7px;
+		left: 7px;
+		width: 14.014404296875px;
+		height: 14.014404296875px;
+	}
+	#group_32 {
+		top: 0px;
+		left: 0px;
+		width: 14.014404296875px;
+		height: 14.014404296875px;
+	}
+
+	#path_22 {
+		top: 0px;
+		left: 0px;
+		width: 14.014404296875px;
+		height: 14.014404296875px;
+	}
+
+
+	#ellipse_8 {
+		top: 6px;
+		left: 21px;
+		width: 1.8671875px;
+		height: 1.867431640625px;
+		-ms-border-radius: 0.93359375px / 0.93359375px;
+		-o-border-radius: 0.93359375px / 0.93359375px;
+		-moz-border-radius: 0.93359375px / 0.93359375px;
+		-webkit-border-radius: 0.93359375px / 0.93359375px;
+		border-radius: 0.93359375px / 0.93359375px;
+		background:rgba(255,255,255,255);
+	}
+
+	#facebook__1_ {
+		top: 0px;
+		left: 0px;
+		width: 28.02880859375px;
+		height: 28.02880859375px;
+	}
+
+	#facebook__1__ek1 {
+		top: 0px;
+		left: 0px;
+		width: 28.02880859375px;
+		height: 28.02880859375px;
+	}
+
+
+	#___2020__uridium_technologies_ltd__all_rights_reserved_ {
+		top: 345px;
+		left: 102px;
+		width: 503px;
+		height: 31px;
+		font-family: Proxima Nova;
+		font-size: 20px;
+		text-align: center;
+		color:#ffffff;
+	}
+
+	#group_72 {
+		top: 33px;
+		left: 221px;
+		width: 266px;
+		height: 102px;
+	}
+
+	#home {
+		top: 0px;
+		left: 2px;
+		width: 60px;
+		height: 31px;
+		font-family: Proxima Nova;
+		font-size: 20px;
+		text-align: left;
+		color:#ffffff;
+	}
+
+
+	#about {
+		top: 74px;
+		left: 0px;
+		width: 61px;
+		height: 31px;
+		font-family: Proxima Nova;
+		font-size: 20px;
+		text-align: left;
+		color:#ffffff;
+	}
+
+
+	#services {
+		top: 0px;
+		left: 192px;
+		width: 79px;
+		height: 31px;
+		font-family: Proxima Nova;
+		font-size: 20px;
+		text-align: left;
+		color:#ffffff;
+	}
+
+
+	#contact {
+		top: 75px;
+		left: 194px;
+		width: 75px;
+		height: 31px;
+		font-family: Proxima Nova;
+		font-size: 20px;
+		text-align: left;
+		color:#ffffff;
+	}
+
+	#address {
+		top: 187px;
+		left: 53px;
+		width: 601px;
+		height: 65px;
+	}
+
+	#address_ {
+		top: 0px;
+		left: 260px;
+		width: 82px;
+		height: 45px;
+		overflow: hidden;
+		font-family: Proxima Nova;
+		font-size: 20px;
+		text-align: left;
+		line-height: 20px;
+		color:#ffffff;
+	}
+
+
+	#__plot_15__mike_ejezie_street__faith_house___lekki_ph_1__lagos__nigeria {
+		top: 38px;
+		left: 0px;
+		width: 606px;
+		height: 31px;
+		font-family: Proxima Nova;
+		font-size: 20px;
+		text-align: left;
+		color:#ffffff;
+	}
+
+
+	#contact___2347032364108 {
+		top: 275px;
+		left: 50px;
+		width: 241px;
+		height: 31px;
+		font-family: Proxima Nova;
+		font-size: 20px;
+		text-align: center;
+		color:#ffffff;
+	}
+
+	#repeat_grid_1 {
+		top: 105px;
+		left: 47px;
+		width: 606px;
+		height: 1224px;
+		overflow:hidden;
+	}
+
+	#image_2 {
+		top: 0px;
+		left: 0px;
+		width: 604px;
+		height: 604px;
+	}
+
+	#__ek1 {
+		top: 613px;
+		left: 0px;
+		width: 604px;
+		height: 604px;
+	}
+
+	#image_2_ek1 {
+		top: 0px;
+		left: 0px;
+		width: 604px;
+		height: 604px;
+		display: block;
+	}
+
+	#group_73 {
+		top: 0px;
+		left: -1.48681640625px;
+		width: 700px;
+		height: 91.410438537598px;
+	}
+	#group_42 {
+		top: 0px;
+		left: 0px;
+		width: 700px;
+		height: 91.410438537598px;
+	}
+
+	#path_19 {
+		top: 0px;
+		left: 0px;
+		width: 700px;
+		height: 91.410438537598px;
+	}
+
+	#group_1 {
+		top: 35px;
+		left: 460px;
+		width: 213px;
+		height: 21px;
+	}
+
+	#about_ek1 {
+		top: 0px;
+		left: 0px;
+		width: 52px;
+		height: 24px;
+		font-family: Proxima Nova;
+		font-size: 16px;
+		text-align: left;
+		color:#000000;
+	}
+
+
+	#services_ek1 {
+		top: 0px;
+		left: 67px;
+		width: 67px;
+		height: 24px;
+		font-family: Proxima Nova;
+		font-size: 16px;
+		text-align: center;
+		color:#000000;
+	}
+
+
+	#contact_ek1 {
+		top: 0px;
+		left: 155px;
+		width: 63px;
+		height: 24px;
+		font-family: Proxima Nova;
+		font-size: 16px;
+		text-align: left;
+		color:#000000;
+	}
+
+	#home_run {
+		top: 36px;
+		left: 413px;
+		width: 23.255126953125px;
+		height: 22.204605102539px;
+	}
+
+	#path_26 {
+		top: 0px;
+		left: 0px;
+		width: 23.255126953125px;
+		height: 22.204605102539px;
+	}
+
+
+	#image_53 {
+		top: 30px;
+		left: 28px;
+		width: 145.95654296875px;
+		height: 33.64582824707px;
+	}
+}
+
+@media only screen and (min-width: 1280px) {
+  /* For desktop(Small): */
+  	/*
+		@name web_1280
+	*/
+	/* Only edit this if you know what you are doing! */
+	body { margin: 0px; padding: 0px; font-family:"Arial"; /*overflow-x:hidden;*/ }
+
+	/* Only edit this if you know what you are doing! */
+	img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+	/* Only edit this if you know what you are doing! */
+	div { position: absolute; }
+
+	#content-container { display: table; position: relative; width: 1270px; height: 1361px; margin-left: auto; margin-right: auto;  }
+
+	#_bg__web_1920 {
+		top: 0px;
+		left: 0px;
+		width: 1270px;
+		height: 1361px;
+		background:rgba(255,255,255,255);
+	}
+
+	#image_2_ek1 {
+		display: none;
+	}
+
+	#group_43 {
+		top: 956.31262207031px;
+		left: 0px;
+		width: 1270.0263671875px;
+		height: 399.68737792969px;
+	}
+
+	#rectangle_24 {
+		top: 0px;
+		left: 0px;
+		width: 1270.0263671875px;
+		height: 399.68737792969px;
+		background:rgba(25,25,25,255);
+	}
+
+	#group_36 {
+		top: 80px;
+		left: 996px;
+		width: 199.65356445312px;
+		height: 28.02880859375px;
+	}
+	#linkedin {
+		top: 0px;
+		left: 87px;
+		width: 27.931884765625px;
+		height: 27.931884765625px;
+	}
+
+	#path_23 {
+		top: 9px;
+		left: 10px;
+		width: 18.052001953125px;
+		height: 19.117065429688px;
+	}
+
+
+	#path_24 {
+		top: 9px;
+		left: 0px;
+		width: 5.791259765625px;
+		height: 18.64794921875px;
+	}
+
+
+	#path_25 {
+		top: 0px;
+		left: 0px;
+		width: 6.708251953125px;
+		height: 6.73974609375px;
+	}
+
+	#instagram {
+		top: 0px;
+		left: 172px;
+		width: 28.02880859375px;
+		height: 28.02880859375px;
+	}
+	#group_31 {
+		top: 0px;
+		left: 0px;
+		width: 28.02880859375px;
+		height: 28.02880859375px;
+	}
+	#group_30 {
+		top: 0px;
+		left: 0px;
+		width: 28.02880859375px;
+		height: 28.02880859375px;
+	}
+
+	#path_21 {
+		top: 0px;
+		left: 0px;
+		width: 28.02880859375px;
+		height: 28.02880859375px;
+	}
+
+	#group_33 {
+		top: 7px;
+		left: 7px;
+		width: 14.014404296875px;
+		height: 14.014404296875px;
+	}
+	#group_32 {
+		top: 0px;
+		left: 0px;
+		width: 14.014404296875px;
+		height: 14.014404296875px;
+	}
+
+	#path_22 {
+		top: 0px;
+		left: 0px;
+		width: 14.014404296875px;
+		height: 14.014404296875px;
+	}
+
+
+	#ellipse_8 {
+		top: 6px;
+		left: 21px;
+		width: 1.867431640625px;
+		height: 1.867431640625px;
+		-ms-border-radius: 0.9337158203125px / 0.9337158203125px;
+		-o-border-radius: 0.9337158203125px / 0.9337158203125px;
+		-moz-border-radius: 0.9337158203125px / 0.9337158203125px;
+		-webkit-border-radius: 0.9337158203125px / 0.9337158203125px;
+		border-radius: 0.9337158203125px / 0.9337158203125px;
+		background:rgba(255,255,255,255);
+	}
+
+	#facebook__1_ {
+		top: 0px;
+		left: 0px;
+		width: 28.02880859375px;
+		height: 28.02880859375px;
+	}
+
+	#facebook__1__ek1 {
+		top: 0px;
+		left: 0px;
+		width: 28.02880859375px;
+		height: 28.02880859375px;
+	}
+
+
+	#___2020__uridium_technologies_ltd__all_rights_reserved_ {
+		top: 293px;
+		left: 383px;
+		width: 503px;
+		height: 31px;
+		font-family: Proxima Nova;
+		font-size: 20px;
+		text-align: center;
+		color:#ffffff;
+	}
+
+	#group_72 {
+		top: 84px;
+		left: 84px;
+		width: 399px;
+		height: 24px;
+	}
+
+	#home {
+		top: 0px;
+		left: 0px;
+		width: 54px;
+		height: 28px;
+		font-family: Proxima Nova;
+		font-size: 18px;
+		text-align: left;
+		color:#ffffff;
+	}
+
+
+	#about {
+		top: 0px;
+		left: 106px;
+		width: 56px;
+		height: 28px;
+		font-family: Proxima Nova;
+		font-size: 18px;
+		text-align: left;
+		color:#ffffff;
+	}
+
+
+	#services {
+		top: 0px;
+		left: 213px;
+		width: 71px;
+		height: 28px;
+		font-family: Proxima Nova;
+		font-size: 18px;
+		text-align: left;
+		color:#ffffff;
+	}
+
+
+	#contact {
+		top: 0px;
+		left: 336px;
+		width: 68px;
+		height: 28px;
+		font-family: Proxima Nova;
+		font-size: 18px;
+		text-align: left;
+		color:#ffffff;
+	}
+
+	#address {
+		top: 137px;
+		left: 84px;
+		width: 702px;
+		height: 31px;
+	}
+
+	#address_ {
+		top: 0px;
+		left: 0px;
+		width: 82px;
+		height: 45px;
+		overflow: hidden;
+		font-family: Proxima Nova;
+		font-size: 20px;
+		text-align: left;
+		line-height: 20px;
+		color:#ffffff;
+	}
+
+
+	#__plot_15__mike_ejezie_street__faith_house___lekki_ph_1__lagos__nigeria {
+		top: 2px;
+		left: 101px;
+		width: 606px;
+		height: 31px;
+		font-family: Proxima Nova;
+		font-size: 20px;
+		text-align: left;
+		color:#ffffff;
+	}
+
+
+	#contact___2347032364108 {
+		top: 197px;
+		left: 76px;
+		width: 241px;
+		height: 31px;
+		font-family: Proxima Nova;
+		font-size: 20px;
+		text-align: center;
+		color:#ffffff;
+	}
+
+	#repeat_grid_1 {
+		top: 105px;
+		left: 214px;
+		width: 843px;
+		height: 836px;
+		overflow:hidden;
+	}
+
+	#image_2 {
+		top: 0px;
+		left: 0px;
+		width: 836px;
+		height: 836px;
+	}
+
+	#group_73 {
+		top: 0px;
+		left: -1.48681640625px;
+		width: 1270px;
+		height: 91.410438537598px;
+	}
+	#group_42 {
+		top: 0px;
+		left: 0px;
+		width: 1270px;
+		height: 91.410438537598px;
+	}
+
+	#path_19 {
+		top: 0px;
+		left: 0px;
+		width: 1270px;
+		height: 91.410438537598px;
+	}
+
+	#group_1 {
+		top: 35px;
+		left: 943px;
+		width: 220px;
+		height: 21px;
+	}
+
+	#about_ek1 {
+		top: 0px;
+		left: 0px;
+		width: 52px;
+		height: 24px;
+		font-family: Proxima Nova;
+		font-size: 16px;
+		text-align: left;
+		color:#000000;
+	}
+
+
+	#services_ek1 {
+		top: 0px;
+		left: 70px;
+		width: 67px;
+		height: 24px;
+		font-family: Proxima Nova;
+		font-size: 16px;
+		text-align: center;
+		color:#000000;
+	}
+
+
+	#contact_ek1 {
+		top: 0px;
+		left: 162px;
+		width: 63px;
+		height: 24px;
+		font-family: Proxima Nova;
+		font-size: 16px;
+		text-align: left;
+		color:#000000;
+	}
+
+	#home_run {
+		top: 36px;
+		left: 893px;
+		width: 23.255126953125px;
+		height: 22.204608917236px;
+	}
+
+	#path_26 {
+		top: 0px;
+		left: 0px;
+		width: 23.255126953125px;
+		height: 22.204608917236px;
+	}
+
+
+	#image_53 {
+		top: 30px;
+		left: 98px;
+		width: 145.95654296875px;
+		height: 33.64582824707px;
+	}
+}
+
+@media only screen and (min-width: 1366px) {
+  /* For desktop(Small): */
+	/*
+		@name web_1350
+	*/
+	/* Only edit this if you know what you are doing! */
+	body { margin: 0px; padding: 0px; font-family:"Arial"; /*overflow-x:hidden;*/ }
+
+	/* Only edit this if you know what you are doing! */
+	img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+	/* Only edit this if you know what you are doing! */
+	div { position: absolute; }
+
+	#content-container { display: table; position: relative; width: 1350px; height: 1361px; margin-left: auto; margin-right: auto;  }
+
+	#_bg__web_1920 {
+		top: 0px;
+		left: 0px;
+		width: 1350px;
+		height: 1361px;
+		background:rgba(255,255,255,255);
+	}
+
+	#image_2_ek1 {
+		display: none;
+	}
+
+	#group_43 {
+		top: 956.31262207031px;
+		left: 0px;
+		width: 1350.0280761719px;
+		height: 399.68737792969px;
+	}
+
+	#rectangle_24 {
+		top: 0px;
+		left: 0px;
+		width: 1350.0280761719px;
+		height: 399.68737792969px;
+		background:rgba(25,25,25,255);
+	}
+
+	#group_36 {
+		top: 80px;
+		left: 1059px;
+		width: 212.23022460938px;
+		height: 28.02880859375px;
+	}
+	#linkedin {
+		top: 0px;
+		left: 93px;
+		width: 29.69140625px;
+		height: 27.931884765625px;
+	}
+
+	#path_23 {
+		top: 9px;
+		left: 12px;
+		width: 18.052001953125px;
+		height: 19.117065429688px;
+	}
+
+
+	#path_24 {
+		top: 9px;
+		left: 0px;
+		width: 5.791259765625px;
+		height: 18.64794921875px;
+	}
+
+
+	#path_25 {
+		top: 0px;
+		left: 0px;
+		width: 6.708251953125px;
+		height: 6.73974609375px;
+	}
+
+	#instagram {
+		top: 0px;
+		left: 182px;
+		width: 29.79443359375px;
+		height: 28.02880859375px;
+	}
+	#group_31 {
+		top: 0px;
+		left: 0px;
+		width: 29.79443359375px;
+		height: 28.02880859375px;
+	}
+	#group_30 {
+		top: 0px;
+		left: 0px;
+		width: 29.79443359375px;
+		height: 28.02880859375px;
+	}
+
+	#path_21 {
+		top: 0px;
+		left: 0px;
+		width: 29.79443359375px;
+		height: 28.02880859375px;
+	}
+
+	#group_33 {
+		top: 7px;
+		left: 8px;
+		width: 14.014404296875px;
+		height: 14.014404296875px;
+	}
+	#group_32 {
+		top: 0px;
+		left: 0px;
+		width: 14.014404296875px;
+		height: 14.014404296875px;
+	}
+
+	#path_22 {
+		top: 0px;
+		left: 0px;
+		width: 14.014404296875px;
+		height: 14.014404296875px;
+	}
+
+
+	#ellipse_8 {
+		top: 6px;
+		left: 21px;
+		width: 3.633056640625px;
+		height: 1.867431640625px;
+		-ms-border-radius: 1.8165068626403809px / 0.9337097406387329px;
+		-o-border-radius: 1.8165068626403809px / 0.9337097406387329px;
+		-moz-border-radius: 1.8165068626403809px / 0.9337097406387329px;
+		-webkit-border-radius: 1.8165068626403809px / 0.9337097406387329px;
+		border-radius: 1.8165068626403809px / 0.9337097406387329px;
+		background:rgba(255,255,255,255);
+	}
+
+	#facebook__1_ {
+		top: 0px;
+		left: 0px;
+		width: 29.79443359375px;
+		height: 28.02880859375px;
+	}
+
+	#facebook__1__ek1 {
+		top: 0px;
+		left: 0px;
+		width: 29.79443359375px;
+		height: 28.02880859375px;
+	}
+
+
+	#___2020__uridium_technologies_ltd__all_rights_reserved_ {
+		top: 293px;
+		left: 408px;
+		width: 503px;
+		height: 31px;
+		font-family: Proxima Nova;
+		font-size: 20px;
+		text-align: center;
+		color:#ffffff;
+	}
+
+	#group_72 {
+		top: 84px;
+		left: 89px;
+		width: 420.16528320312px;
+		height: 24px;
+	}
+
+	#home {
+		top: 0px;
+		left: 0px;
+		width: 54px;
+		height: 28px;
+		font-family: Proxima Nova;
+		font-size: 18px;
+		text-align: left;
+		color:#ffffff;
+	}
+
+
+	#about {
+		top: 0px;
+		left: 113px;
+		width: 56px;
+		height: 28px;
+		font-family: Proxima Nova;
+		font-size: 18px;
+		text-align: left;
+		color:#ffffff;
+	}
+
+
+	#services {
+		top: 0px;
+		left: 226px;
+		width: 71px;
+		height: 28px;
+		font-family: Proxima Nova;
+		font-size: 18px;
+		text-align: left;
+		color:#ffffff;
+	}
+
+
+	#contact {
+		top: 0px;
+		left: 357px;
+		width: 68px;
+		height: 28px;
+		font-family: Proxima Nova;
+		font-size: 18px;
+		text-align: left;
+		color:#ffffff;
+	}
+
+	#address {
+		top: 137px;
+		left: 84px;
+		width: 702px;
+		height: 31px;
+	}
+
+	#address_ {
+		top: 0px;
+		left: 0px;
+		width: 82px;
+		height: 45px;
+		overflow: hidden;
+		font-family: Proxima Nova;
+		font-size: 20px;
+		text-align: left;
+		line-height: 20px;
+		color:#ffffff;
+	}
+
+
+	#__plot_15__mike_ejezie_street__faith_house___lekki_ph_1__lagos__nigeria {
+		top: 2px;
+		left: 101px;
+		width: 606px;
+		height: 31px;
+		font-family: Proxima Nova;
+		font-size: 20px;
+		text-align: left;
+		color:#ffffff;
+	}
+
+
+	#contact___2347032364108 {
+		top: 197px;
+		left: 81px;
+		width: 241px;
+		height: 31px;
+		font-family: Proxima Nova;
+		font-size: 20px;
+		text-align: center;
+		color:#ffffff;
+	}
+
+	#repeat_grid_1 {
+		top: 105px;
+		left: 254px;
+		width: 842px;
+		height: 836px;
+		overflow:hidden;
+	}
+
+	#image_2 {
+		top: 0px;
+		left: 0px;
+		width: 836px;
+		height: 836px;
+	}
+
+	#group_73 {
+		top: 0px;
+		left: -1.580322265625px;
+		width: 1349.9997558594px;
+		height: 91.410438537598px;
+	}
+	#group_42 {
+		top: 0px;
+		left: 0px;
+		width: 1349.9997558594px;
+		height: 91.410438537598px;
+	}
+
+	#path_19 {
+		top: 0px;
+		left: 0px;
+		width: 1349.9997558594px;
+		height: 91.410438537598px;
+	}
+
+	#group_1 {
+		top: 35px;
+		left: 1003px;
+		width: 230.20483398438px;
+		height: 21px;
+	}
+
+	#about_ek1 {
+		top: 0px;
+		left: 0px;
+		width: 52px;
+		height: 24px;
+		font-family: Proxima Nova;
+		font-size: 16px;
+		text-align: left;
+		color:#000000;
+	}
+
+
+	#services_ek1 {
+		top: 0px;
+		left: 75px;
+		width: 67px;
+		height: 24px;
+		font-family: Proxima Nova;
+		font-size: 16px;
+		text-align: center;
+		color:#000000;
+	}
+
+
+	#contact_ek1 {
+		top: 0px;
+		left: 172px;
+		width: 63px;
+		height: 24px;
+		font-family: Proxima Nova;
+		font-size: 16px;
+		text-align: left;
+		color:#000000;
+	}
+
+	#home_run {
+		top: 36px;
+		left: 950px;
+		width: 24.72021484375px;
+		height: 22.204608917236px;
+	}
+
+	#path_26 {
+		top: 0px;
+		left: 0px;
+		width: 24.719970703125px;
+		height: 22.204608917236px;
+	}
+
+
+	#image_53 {
+		top: 30px;
+		left: 104px;
+		width: 155.15063476562px;
+		height: 35.765251159668px;
+	}
+}
