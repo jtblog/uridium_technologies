@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root {
+    --site-font-family : 'Montserrat', sans-serif;
+ }
+ * {
+    font-family: var(--site-font-family)!important;
+  }
+.nav-link{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 15px!important;
+    color: #000!important;
+}
+.material-icons {
+    font-family: 'Material Icons'!important;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: 'liga';
+    margin-top: 3px;
+}
+.navbar-nav {
+    margin-right: 100px!important;
+}
+.banner-draw{
+    -ms-transform: rotate(15deg); /* IE 9 */
+    transform: rotate(15deg);
+    width: 119%!important;
+}
+.intro-desktop{
+    max-width: unset!important;
+    margin-top: -80px;
+}
+.btn-banner-contact{
+    margin-top: 50px;
+    padding: 15px 60px!important;
+    border-radius: 0!important;
+    text-transform: unset!important;
+    font-size: 18px!important;
+    font-weight: 500!important;
+}
+.intro-desktop h2 {
+    font-size: 57px;
+    line-height: 59px;
+}
+@media(min-width:1400px){
+    .page .container{
+        max-width: 1350px;
+    }
+}
