@@ -72,11 +72,11 @@ app.get('/ping', function (req, res) {
   	//res.render('index');
 });
 
-app.get('/test', function (req, res) {
+/*(app.get('/test', function (req, res) {
 	//console.log(Date.now())
-	res.redirect('/test.html');
+	res.redirect('dev/index.html');
   	//res.render('index');
-});
+});*/
 
 app.post('/send-email', json_parser, function (req, res) {
 
@@ -124,7 +124,7 @@ app.post('/send-email', json_parser, function (req, res) {
 		let mailOptions = {
 		    from: 'contactpayahead@gmail.com', // sender address
 		    //to: req.body.to, // list of receivers
-		    to: "joetfx@hotmail.com",
+		    to: "devopsteam@uridiumtechnologies.com",
 		    subject: "Message from: "+ req.body.name + " with email: "+ req.body.email + " by: " + Date.now(), // Subject line
 		    text: req.body.message, // plain text body
 		    //html: '<b>NodeJS Email Tutorial</b>' // html body
