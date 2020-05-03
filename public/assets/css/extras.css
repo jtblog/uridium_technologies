@@ -137,6 +137,94 @@
 .home-banner-section {
     margin-top: 150px;
 }
+.services-wrapper{
+    margin-top: 350px;
+}
+.card-black{
+  background: #162b4d;
+  color: white;
+}
+.card-green{
+    background: #79f2c0;
+    color: black;
+}
+.card-blue{
+    background: #0052cc;
+    color: #fff;
+}
+.card-red{
+    background: #f8615a;
+    color: black;
+}
+.card-yellow{
+    background: #ffc400;
+    color: black;
+}
+.card-purple{
+    background: #400f72;
+    color: white;
+}
+.services .card{
+    margin: 0;
+}
+.service-item {
+    border-radius: 10px;
+}
+.service-item h4.card-title {
+    margin-top: 25px;
+    font-size: 28px;
+    line-height: 38px;
+    font-weight: 600;
+}
+.service-item p.card-text {
+    font-size: 17px;
+}
+.service-item .card-body {
+    padding: 40px 25px;
+}
+.services .fa {
+    font: normal normal normal 14px/1 FontAwesome!important;
+}
+.card-link {
+    margin-top: 50px;
+    display: block;
+    font-weight: 600;
+    font-size: 18px;
+}
+.service-group {
+    margin-bottom: 60px;
+}
+h4.mobile-services-header {
+    font-size: 30px;
+    font-weight: 600;
+}
+.service-details-wrapper{
+    margin-top: 200px;
+}
+#service_heading {
+    font-size: 40px;
+    font-weight: 600;
+    max-width: 40%;
+    margin-bottom: 150px;
+}
+.service-details-content h6{
+    font-size: 20px;
+    margin-bottom: 60px!important;
+}
+#service_paragraph{
+    color: #000!important;
+}
+#service_paragraph ul{
+    margin-top: 20px;
+}
+.service-details-wrapper .card{
+    border: none;
+}
+.service-details-content hr {
+    margin-top: 150px;
+    border-width: 5px;
+    margin-bottom: 50px;
+}
 @media(min-width:1400px){
     .page .container{
         max-width: 1350px;
@@ -252,5 +340,42 @@
         color: #fff!important;
         text-align: left!important;
     }
-   
+    .service-item {
+        border-radius: 10px;
+        margin-bottom: 20px!important;
+    }
+    .service-group {
+        margin-bottom: 0;
+    }
+    .services-wrapper {
+        margin-top: 130px;
+    }
+    p.mobile-services-sub-header {
+        margin-bottom: 30px;
+    }
+    .service-item h4.card-title {
+        margin-top: 25px;
+        font-size: 23px;
+        line-height: 38px;
+        font-weight: 600;
+    }
+    #service_heading {
+        font-size: 24px;
+        font-weight: 600;
+        max-width: 100%;
+        margin-bottom: 40px;
+    }
+    .service-details-content h6 {
+        font-size: 20px;
+        margin-bottom: 35px!important;
+    }
+    #service_paragraph {
+        color: #000!important;
+        font-size: 15px;
+    }
+    .service-details-content hr {
+        margin-top: 45px;
+        border-width: 5px;
+        margin-bottom: 20px;
+    }
 }
