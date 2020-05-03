@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="assets/css/-Login-form-Page-BS4-.css">
     <link rel="stylesheet" href="assets/css/best-carousel-slide.css">
     <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="assets/css/Footer-Dark-1.css">
     <link rel="stylesheet" href="assets/css/Footer-Dark.css">
     <link rel="stylesheet" href="assets/css/Highlight-Phone.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
@@ -23,120 +24,130 @@
 
 <body>
     <div style="width: 100%;">
-        <nav class="navbar navbar-light navbar-expand-md fixed-top navigation-clean" style="margin-bottom: 50px;">
+        <nav class="navbar navbar-light navbar-expand-md fixed-top navigation-clean" style="margin-bottom: 0px;">
             <div class="container"><a class="navbar-brand" href="test.html"><img src="assets/img/uridium.png"></a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
                 <div
-                    class="collapse navbar-collapse" id="navcol-1" style="max-height: 100%;">
+                    class="collapse navbar-collapse d-md-flex" id="navcol-1" style="max-height: 100%;">
                     <ul class="nav navbar-nav ml-auto">
-                        <li class="nav-item" role="presentation"><a class="nav-link active" href="test.html"><i class="material-icons">home</i></a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="about_us.html">About</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="services.html">Services</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="javascript:open_message_modal()">Contact</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link active" href="index.html"><i class="material-icons" data-bs-hover-animate="tada">home</i></a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="about_us.html" data-bs-hover-animate="tada" style="font-size: 18px;font-weight: bold;">About</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="services.html" data-bs-hover-animate="tada" style="font-size: 18px;font-weight: bold;">Services</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="javascript:open_message_modal()" data-bs-hover-animate="tada" style="font-size: 18px;font-weight: bold;">Contact</a></li>
                     </ul>
             </div>
     </div>
     </nav>
-    <nav class="navbar navbar-light navbar-expand-md fixed-top navigation-clean" style="margin-bottom: 50px;">
-        <div class="container"><a class="navbar-brand" href="index.html"><img src="assets/img/uridium.png" data-bs-hover-animate="swing"></a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div
-                class="collapse navbar-collapse" id="navcol-1" style="max-height: 100%;">
-                <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item" role="presentation"><a class="nav-link active" href="index.html"><i class="material-icons" data-bs-hover-animate="tada">home</i></a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="about_us.html" data-bs-hover-animate="tada">About</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="services.html" data-bs-hover-animate="tada">Services</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="javascript:open_message_modal()" data-bs-hover-animate="tada">Contact</a></li>
-                </ul>
-        </div>
-        </div>
-    </nav>
     </div>
-    <div style="margin-top: 150px;">
-        <div class="container">
-            <div class="row" style="word-wrap: normal;">
-                <div class="col-md-4">
-                    <div class="card" style="color: white;margin: 5%;height: 90%;">
-                        <div class="card-body" style="background-color: rgb(22,43,77);border-radius: 30px;"><img src="assets/img/image_40_ek1.png" style="width: 42px;">
+    <div style="margin-top: 20%;">
+        <div class="container" style="padding: 0px;">
+            <h1 style="font-size: 55px;font-weight: bold;padding-left: 15px;">Our Services</h1>
+            <p style="font-size: 18px;font-weight: bold;margin-bottom: 10%;padding-left: 15px;">Great teamwork requires more than just great tools. Check out our&nbsp;<br>proven methods, guides, and exercises that help make work better,&nbsp;<br>and people happier.</p>
+            <div class="row d-flex d-xl-flex align-items-stretch align-content-stretch flex-wrap justify-content-xl-center align-items-xl-center"
+                style="word-wrap: normal;margin: 0px;">
+                <div class="col-md-4 d-flex align-self-stretch" style="padding: 0px;">
+                    <div class="card" style="color: white;background-color: rgb(22,43,77);padding: 0px;">
+                        <div class="card-body" style="padding: 10%;"><img src="assets/img/image_40_ek1.png" class="service_img" style="width: 74px;">
                             <h4 class="card-title">Enterprise Security Solutions and Services</h4>
-                            <p class="card-text">Great teamwork requires more than just great tools. Check out our proven methods, guides, and exercises that help make work better, and people happier.<br></p><a class="card-link" href='javascript:go_to_service("esss")' data-bs-hover-animate="swing"
+                            <p class="card-text truncate" id="esss">Our goal for this highly sensitive area is to provide end to end security solutions across all levels of the IT Infrastructure from Network, Servers, Storage infrastructure to Applications and Databases, Processes and Personnel.
+                                <br><br><br>&nbsp;&nbsp;We help organizations secure, manage, monitor, or document what is important to them in cost effective manner. This Includes:"<br><br>&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UTMs/NGFs/NGIPs&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                End point Security (antivirus/antimalware/antibot/Encryption)&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gateway security solutions&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Events and log monitoring/management&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DB,
+                                App &amp; data encryption&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System &amp; user activity monitoring and management &nbsp;<br>&nbsp; &nbsp;<br></p><a class="card-link" href='javascript:go_to_service("esss")' data-bs-hover-animate="swing"
                                 style="color: rgb(255,255,255);">Learn more &nbsp;<i class="fa fa-long-arrow-right"></i>&nbsp;</a></div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card" style="color: rgb(0,0,0);margin: 5%;height: 90%;">
-                        <div class="card-body" style="background-color: rgb(121,242,192);border-radius: 30px;"><img src="assets/img/image_40_ek1.png" style="width: 42px;">
+                <div class="col-md-4 d-flex align-self-stretch">
+                    <div class="card" style="color: rgb(0,0,0);background-color: rgb(121,242,192);padding: 0px;">
+                        <div class="card-body" style="padding: 10%;"><img src="assets/img/image_40_ek1.png" class="service_img" style="width: 74px;">
                             <h4 class="card-title">Cloud and Mobile Solutions</h4>
-                            <p class="card-text">Great teamwork requires more than just great tools. Check out our proven<br> methods, guides, and exercises that help make work better, and people <br>happier.<br></p><a class="card-link" href='javascript:go_to_service("cms")'
-                                data-bs-hover-animate="swing" style="color: rgb(0,0,0);">Learn more &nbsp;<i class="fa fa-long-arrow-right"></i>&nbsp;</a></div>
+                            <p class="card-text truncate" id="cms">We provide private cloud offerings for customers that have the appropriate Infrastructure in place and provide public cloud support for customers with offsite infrastructure needs.<br><br>Under cloud solutions, we will provide
+                                self-service, service catalogues, automation and orchestration type of solutions using industry-leading technologies to achieve a flexible solution that will drive maximum customer benefits at very reasonable costs.<br>In
+                                addition, we provide Cloud backup and recovery as well as Cloud Disaster Recovery. With our Cloud Solutions &amp; Services, we help organizations enable IT-as-a-Service (ITaaS) (for internal or external use), using; to
+                                the extent possible, their existing infrastructure. Also, we believe that improving on SLA's, added productivity via self-service and service analytics will enable our customers derive maximum utilization from their IT
+                                investment.<br><br>As the world is going more and more mobile, we believe that the future of technology will be largely mobile as already evident and organizations who want highly motivated staff and improved productivity
+                                will have no choice but to have the allowance and capability, to effectively implement long lasting BYOD (bring your own device) strategies and management technologies.<br>Organizations can exploit mobile device &amp; application
+                                management for the benefit of their business by deploying 'BYOD' capabilities thus empowering their staff to be more <br>productive in a mix work and play environment.<br><br>We are well positioned to help organizations
+                                make these advances in the mobile era. We strongly believe we will drive differentiation in this space, by providing cost effective mobile application and mobile device management solutions and services to help organizations
+                                cope in the "new" world.<br></p><a class="card-link" href='javascript:go_to_service("cms")' data-bs-hover-animate="swing" style="color: rgb(0,0,0);">Learn more &nbsp;<i class="fa fa-long-arrow-right"></i>&nbsp;</a></div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card" style="color: white;height: 90%;margin: 5%;">
-                        <div class="card-body" style="background-color: rgb(0,82,204);border-radius: 30px;"><img src="assets/img/image_40_ek1.png" style="width: 42px;">
+                <div class="col-md-4 d-flex align-self-stretch">
+                    <div class="card" style="background-color: rgb(0,82,204);color: white;padding: 0px;">
+                        <div class="card-body" style="padding: 10%;"><img src="assets/img/image_40_ek1.png" class="service_img" style="width: 74px;">
                             <h4 class="card-title">IT Advisory and Managed Services.<br></h4>
-                            <p class="card-text">Great teamwork requires more than just great tools. Check out our proven methods, guides, and exercises that help make work better, and people happier.<br></p><a class="card-link" href='javascript:go_to_service("iams")' data-bs-hover-animate="swing"
+                            <p class="card-text truncate" id="iams">Under the Services portfolio, UTL provides consulting, managed and professional services to customers, in all our core solutions and then in specialized areas like security, automation, tuning, customization /special /customer-specific
+                                archiving, processes, etc., that are not off-the-shelf solutions.<br>With our experience from global IT organizations like Microsoft, Cisco, IBM, CheckPoint, Sophos, Barracuda and with our ITIL, Project Management, architecture
+                                and other exposures we have gained over the years and our partnership with individual and teams of experts around the world, we have a service that helps customers improve their operations from process initiation, design
+                                and or optimization to architecture designs; integration into service management, solution evaluation including documentation.<br></p><a class="card-link" href='javascript:go_to_service("iams")' data-bs-hover-animate="swing"
                                 style="color: rgb(255,255,255);">Learn more &nbsp;<i class="fa fa-long-arrow-right"></i>&nbsp;</a></div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card" style="color: rgb(0,0,0);height: 90%;margin: 5%;">
-                        <div class="card-body" style="background-color: rgb(248,97,90);border-radius: 30px;"><img src="assets/img/image_40_ek1.png" style="width: 42px;">
+                <div class="col-md-4 d-flex align-self-stretch">
+                    <div class="card" style="color: rgb(0,0,0);background-color: rgb(248,97,90);padding: 0px;">
+                        <div class="card-body" style="padding: 10%;"><img src="assets/img/image_40_ek1.png" class="service_img" style="width: 74px;">
                             <h4 class="card-title">Business Enterprise <br>Software.<br></h4>
-                            <p class="card-text">Great teamwork requires more than just great tools. Check out our proven methods, guides, and exercises that help make work better, and people happier.<br></p><a class="card-link" href='javascript:go_to_service("bes")' data-bs-hover-animate="swing"
-                                style="color: rgb(0,0,0);">Learn more &nbsp;<i class="fa fa-long-arrow-right"></i>&nbsp;</a></div>
+                            <p class="card-text truncate" id="bes">Today's business needs to be Dynamic, Volatile and highly competitive - not business as usual. To keep moving forward you need every affordable advantage to stay competitive, innovative, nimble and profitable while getting
+                                ready for tomorrow. Accomplishing this is about maintaining your organization's backbone, infrastructure and processes so they're up-to-date and ready to take you to the next plateau. It means ensuring that systems are
+                                highly efficient --maximizing the integration between value chain components – and implementing the right IT systems that ensure you getting the most value and collaboration from your internal and external resources. <br>                                <br>Great organizations know how important enterprise software is – and it's what helps them stay ready to innovate through any business cycle, far before their competition does. To take this on and receive the results
+                                you demand, you need a trusted and experienced IT partner (Uridium <br>Technologies (UTL)<br></p><a class="card-link" href='javascript:go_to_service("bes")' data-bs-hover-animate="swing" style="color: rgb(0,0,0);">Learn more &nbsp;<i class="fa fa-long-arrow-right"></i>&nbsp;</a></div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card" style="color: rgb(0,0,0);height: 90%;margin: 5%;">
-                        <div class="card-body" style="background-color: rgb(255,196,0);border-radius: 30px;"><img src="assets/img/image_40_ek1.png" style="width: 42px;">
+                <div class="col-md-4 d-flex align-self-stretch">
+                    <div class="card" style="color: rgb(0,0,0);background-color: rgb(255,196,0);padding: 0px;">
+                        <div class="card-body" style="padding: 10%;"><img src="assets/img/image_40_ek1.png" class="service_img" style="width: 74px;">
                             <h4 class="card-title">Infrastructure Solutions <br>&amp; Services (ISS).<br></h4>
-                            <p class="card-text">Great teamwork requires more than just great tools. Check out our proven methods, guides, and exercises that help make work better, and people happier.<br></p><a class="card-link" href='javascript:go_to_service("iss")' data-bs-hover-animate="swing"
-                                style="color: rgb(0,0,0);">Learn more &nbsp;<i class="fa fa-long-arrow-right"></i>&nbsp;</a></div>
+                            <p class="card-text truncate" id="iss">Organizations need stable, expandable, highly active and unified ICT infrastructure solutions and services that empower enterprise processes and re-shape the future.<br><br>ICT Infrastructure solutions and services are not
+                                only the technology but also providing the best infrastructure serves the business operations and its strategic objectives. It acts as a middle man between technology and service management to provide a stable operating
+                                environment to use the technology through proven and repeatable processes.<br><br>We design, deploy and manage high-performance computing ICT infrastructure with <br>extensive experience and our comprehensive, cost-effective
+                                and flexible packaged solutions and services help you to run, optimize and secure ICT infrastructure architecture. <br>Uridium Technologies is the right solutions provider for all your ICT infrastructure solutions and service
+                                needs.<br></p><a class="card-link" href='javascript:go_to_service("iss")' data-bs-hover-animate="swing" style="color: rgb(0,0,0);">Learn more &nbsp;<i class="fa fa-long-arrow-right"></i>&nbsp;</a></div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card" style="background-color: rgb(64,15,114);color: white;height: 90%;margin: 5%;">
-                        <div class="card-body" style="margin: 5%;word-wrap: normal;"><img src="assets/img/image_40_ek1.png" style="width: 42px;">
+                <div class="col-md-4 d-flex align-self-stretch">
+                    <div class="card" style="background-color: rgb(64,15,114);color: white;padding: 0px;">
+                        <div class="card-body" style="padding: 10%;"><img src="assets/img/image_40_ek1.png" class="service_img" style="width: 74px;">
                             <h4 class="card-title" style="word-wrap: normal;">Business Service <br>Management Solutions.<br></h4>
-                            <p class="card-text">Great teamwork requires more than just great tools. Check out our proven methods, guides, and exercises that help make work better, and people happier.<br></p><a class="card-link" href='javascript:go_to_service("bsms")' data-bs-hover-animate="swing"
-                                style="color: rgb(255,255,255);">Learn more &nbsp;<i class="fa fa-long-arrow-right"></i>&nbsp;</a></div>
+                            <p class="card-text truncate" id="bsms">We believe that with the surge in internet adoption, businesses are becoming increasingly dependent on the Internet to connect to their different customers, sites and ultimately the world. It is important that we can help our
+                                customers to fully maximize their investments in connectivity by delivering optimization solutions.<br></p><a class="card-link" href='javascript:go_to_service("bsms")' data-bs-hover-animate="swing" style="color: rgb(255,255,255);">Learn more &nbsp;<i class="fa fa-long-arrow-right"></i>&nbsp;</a></div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div style="margin: 40px;color: rgb(255,255,255);margin-top: 40px;">
-        <div class="container d-flex d-lg-flex justify-content-center justify-content-lg-center align-items-lg-center" style="background-color: rgb(42,120,134);border-radius: 30px;padding: 15px;">
-            <div class="row d-flex d-lg-flex justify-content-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center" style="margin-right: auto;margin-left: auto;">
+    <div class="cta-section" style="margin: 40px;color: rgb(255,255,255);margin-top: 10%;margin-bottom: 10%;margin-left: 0px;margin-right: 0px;">
+        <div class="container d-flex d-lg-flex justify-content-center justify-content-lg-center align-items-lg-center" style="background-color: rgb(42,120,134);border-radius: 30px;padding: 5%;">
+            <div class="row d-flex d-lg-flex justify-content-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center cta-inner-section" style="margin-right: auto;margin-left: auto;">
                 <div class="col-md-7 col-xl-9">
-                    <h1 class="text-center d-flex d-sm-flex justify-content-center justify-content-sm-center justify-content-md-start justify-content-lg-start justify-content-xl-start">Get in touch<br></h1>
-                    <p>Do you want to work with us, make an inquiry or just share a word with us? Feel free to reach out.<br></p>
+                    <h1 class="text-center d-flex d-sm-flex justify-content-center justify-content-sm-center justify-content-md-start justify-content-lg-start justify-content-xl-start" style="font-weight: bold;font-size: 55px;">Get in touch<br></h1>
+                    <p style="font-size: 18px;">Do you want to work with us, make an inquiry or just share a word with us? Feel free to reach out.<br></p>
                 </div>
-                <div class="col-9 col-md-3 col-lg-4 col-xl-2 d-flex d-sm-flex d-md-flex d-lg-flex justify-content-center justify-content-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center"><a class="btn btn-primary d-flex justify-content-center align-items-center" role="button" href="javascript:open_message_modal()" data-bs-hover-animate="swing" style="background-color: rgb(255,255,255);color: rgb(0,0,0);">CONTACT US</a></div>
+                <div class="col-9 col-md-3 col-lg-4 col-xl-2 d-flex d-sm-flex d-md-flex d-lg-flex justify-content-center justify-content-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center"><a class="btn btn-primary d-flex justify-content-center align-items-center" role="button" href="javascript:open_message_modal()" data-bs-hover-animate="swing" style="background-color: rgb(255,255,255);color: rgb(0,0,0);font-weight: bold;">CONTACT US</a></div>
             </div>
         </div>
     </div>
     <div class="footer-dark">
         <footer>
             <div class="container">
-                <div class="row d-sm-flex justify-content-sm-center justify-content-md-center align-items-md-center align-items-lg-center align-items-xl-center" style="margin: 0px;">
-                    <div class="col-sm-2 col-md-5 col-xl-6 text-left d-flex d-md-flex d-lg-flex justify-content-start justify-content-md-center justify-content-lg-center align-items-lg-center justify-content-xl-start item">
+                <div class="row d-sm-flex justify-content-sm-start justify-content-md-center align-items-md-end align-items-lg-end align-items-xl-end" style="margin: 0px;">
+                    <div class="col-sm-2 col-md-6 col-lg-6 col-xl-6 text-left d-flex d-md-flex d-lg-flex align-self-start order-1 justify-content-sm-start justify-content-md-start justify-content-lg-start justify-content-xl-start item" id="column_1" style="margin: 0px;padding: 0px;">
                         <ul class="d-md-flex d-lg-flex justify-content-lg-center">
-                            <li style="margin: 10px;"><a href="index.html" data-bs-hover-animate="tada" style="opacity: 1;">Home</a></li>
-                            <li style="margin: 10px;"><a href="about_us.html" data-bs-hover-animate="tada" style="opacity: 1;">About</a></li>
-                            <li style="margin: 10px;"><a href="services.html" data-bs-hover-animate="tada" style="opacity: 1;">Services</a></li>
-                            <li style="margin: 10px;"><a href="javascript:open_message_modal()" data-bs-hover-animate="tada" style="opacity: 1;">Contact</a></li>
+                            <li style="margin: 10px;"><a href="index.html" data-bs-hover-animate="tada" style="opacity: 1;font-size: 17px;font-weight: bold;">Home</a></li>
+                            <li style="margin: 10px;"><a href="about_us.html" data-bs-hover-animate="tada" style="opacity: 1;font-size: 17px;font-weight: bold;">About</a></li>
+                            <li style="margin: 10px;"><a href="services.html" data-bs-hover-animate="tada" style="opacity: 1;font-size: 17px;font-weight: bold;">Services</a></li>
+                            <li style="margin: 10px;"><a href="javascript:open_message_modal()" data-bs-hover-animate="tada" style="opacity: 1;font-size: 17px;font-weight: bold;">Contact</a></li>
                         </ul>
                     </div>
-                    <div class="col-xl-6 d-flex d-xl-flex justify-content-start justify-content-sm-center justify-content-md-center justify-content-xl-end item social"><a href="#" style="opacity: 1;"><i class="icon ion-social-facebook"></i></a><a href="#" style="opacity: 1;"><i class="icon ion-social-linkedin"></i></a><a href="#" style="opacity: 1;"><i class="icon ion-social-instagram"></i></a></div>
+                    <div class="col-md-6 col-lg-6 col-xl-6 d-flex d-xl-flex justify-content-start order-2 justify-content-sm-start justify-content-md-end justify-content-lg-end justify-content-xl-end item social" id="column_2" style="margin: 0px;padding: 0px;margin-bottom: 60px;"><a href="#" style="opacity: 1;margin: 0px;margin-right: 10px;margin-left: 10px;"><i class="icon ion-social-facebook"></i></a><a href="#" style="opacity: 1;margin: 0px 10px;"><i class="icon ion-social-linkedin"></i></a><a href="#" style="opacity: 1;margin: 0px 10px;"><i class="icon ion-social-instagram"></i></a></div>
                     <div
-                        class="col-md-6 col-xl-6 d-xl-flex justify-content-xl-start item text" style="margin-top: 45px;">
-                        <h6 class="text-center d-xl-flex justify-content-xl-start align-items-xl-center"><i class="fa fa-map-marker" style="font-size: 34px;"></i>&nbsp; &nbsp; Faith House, Plot 15, Mike Ejezie Street, Off Fola Osibo Street, Lekki Ph 1, Lagos, Nigeria</h6>
+                        class="col-md-12 col-lg-12 col-xl-12 d-md-flex d-lg-flex d-xl-flex order-3 justify-content-md-end justify-content-lg-end align-items-lg-end justify-content-xl-end align-items-xl-center" id="column_3" style="padding: 0px;margin: 0px;margin-bottom: 5px;margin-top: 5px;">
+                        <p class="d-flex d-md-flex align-items-end justify-content-md-center align-items-md-end align-items-lg-end justify-content-xl-center align-items-xl-end" style="color: rgb(255,255,255);opacity: 1;margin: 0px;padding: 0px;margin-left: 10px;">07032364108, 08022225919<br></p>
                 </div>
-                <div class="col">
-                    <p class="d-md-flex justify-content-md-center align-items-lg-center justify-content-xl-end align-items-xl-center" style="color: rgb(255,255,255);opacity: 1;"><i class="fa fa-phone"></i>&nbsp; &nbsp;07032364108, 08022225919<br></p>
+                <div class="col-md-6 col-lg-5 col-xl-6 d-xl-flex order-4 justify-content-xl-start item text" id="column_4" style="margin: 0px;padding: 0px;margin-bottom: 5px;margin-top: 5px;">
+                    <h6 class="text-left d-xl-flex justify-content-xl-start align-items-xl-center" style="margin-left: 10px;">Faith House, Plot 15, Mike Ejezie Street, Off Fola Osibo Street, Lekki Ph 1, Lagos, Nigeria<br></h6>
+                </div>
+                <div class="col-md-6 col-lg-7 col-xl-6 d-md-flex order-5 justify-content-md-end align-items-md-center" id="column_5" style="padding: 0px;margin: 0px;margin-bottom: 5px;margin-top: 5px;">
+                    <p class="d-flex d-sm-flex d-xl-flex justify-content-start align-items-start align-content-center align-self-start flex-wrap justify-content-md-end justify-content-xl-end copyright" id="copyright" style="opacity: 1;padding-top: 0px;font-size: 15px;margin: 0px;margin-left: 10px;">© 2020 Uridium Technologies. All rights reserved.</p>
                 </div>
             </div>
-            <p class="d-xl-flex justify-content-xl-end copyright" id="copyright" style="opacity: 1;">© 2020 Uridium Technologies. All rights reserved.</p>
     </div>
     </footer>
     </div>

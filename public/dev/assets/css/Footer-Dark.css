@@ -58,7 +58,6 @@
 @media (max-width:991px) {
   .footer-dark .item.social {
     text-align: center;
-    margin-top: 20px;
   }
 }
 
@@ -78,13 +77,5 @@
 
 .footer-dark .item.social > a:hover {
   opacity: 0.9;
-}
-
-.footer-dark .copyright {
-  text-align: center;
-  padding-top: 24px;
-  opacity: 0.3;
-  font-size: 13px;
-  margin-bottom: 0;
 }
 
