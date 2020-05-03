@@ -22,9 +22,9 @@ window.host = window.location.href.slice(0, window.location.href.lastIndexOf("/"
 var endpoint = "/send-email";
 
 window.ceo_image = "image_13_ek1.png"
-window.cto_image = "image_13_ek1.png"
-window.cto_name = "Ayotunde Itayemi"
-window.cto_paragraph = "A dedicated and hard working staff of uridiumtechnologies limited <br><br> \
+window.coo_image = "image_13_ek1.png"
+window.coo_name = "Ayotunde Itayemi"
+window.coo_paragraph = "A dedicated and hard working staff of uridiumtechnologies limited <br><br> \
                         Having worked for corporations such as \
                         Computer Warehouse and IBM, and holding the position of Country Manager \
                         for Commvault Systems Inc. in West Africa, he has gathered a mammoth of \
@@ -123,12 +123,12 @@ window.open_leader_modal = function(_in){
                 $("#leader_image").attr("src", window.host + "/assets/img/" + window.ceo_image);
             }catch(e){}
             break;
-        case "cto":
+        case "coo":
             $("#leader_title").html(_in.toUpperCase());
-            $("#leader_name").html(window.cto_name);
-            $("#leader_paragraph").html(window.cto_paragraph);
+            $("#leader_name").html(window.coo_name);
+            $("#leader_paragraph").html(window.coo_paragraph);
             try{
-                $("#leader_image").attr("src", window.host + "/assets/img/" + window.cto_image);
+                $("#leader_image").attr("src", window.host + "/assets/img/" + window.coo_image);
             }catch(e){}
             break;
     }
