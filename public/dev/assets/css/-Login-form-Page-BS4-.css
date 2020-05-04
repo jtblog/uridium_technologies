@@ -80,6 +80,7 @@
 @media (max-width: 767px) {
   #intro-header {
     text-align: center;
+    font-size: 7vw;
   }
 }
 
@@ -173,5 +174,17 @@
 
 #leader_col2 {
   order: 1;
+}
+
+@media (min-width: 768px) {
+  #intro-header, #section_0_heading1, #section_0_heading2, #section_1_heading, #section_2_heading, #section_3_heading, #section_4_heading, #section_5_heading, #service_heading {
+    font-size: 4.2vw;
+  }
+}
+
+@media (max-width: 767px) {
+  #section_0_heading1, #section_0_heading2, #section_1_heading, #section_2_heading, #section_3_heading, #section_4_heading, #section_5_heading, #service_heading {
+    font-size: 7vw;
+  }
 }
 
