@@ -67,3 +67,160 @@
   /*background-repeat: no-repeat;*/
 }
 
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+}
+
+@media (max-width: 767px) {
+  .banner-draw {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  #intro-header {
+    text-align: center;
+    font-size: 7vw;
+  }
+}
+
+@media (max-width: 767px) {
+  .charts {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  #column-1 {
+    order: 1;
+  }
+}
+
+@media (max-width: 767px) {
+  #column-2 {
+    order: 2;
+  }
+}
+
+.row > [class*='col-'] {
+  margin-top: 4%;
+}
+
+.truncate {
+  overflow: hidden;
+  position: relative;
+  line-height: 1.2em;
+  max-height: 6em;
+  margin-right: -1em;
+  padding-right: 1em;
+  margin: 5% 0 30% 0;
+}
+
+.truncate:before {
+  content: '. . .';
+  position: absolute;
+  right: 0px;
+  bottom: 0;
+}
+
+.truncate:after {
+  content: '';
+  position: absolute;
+  right: 0;
+  width: 1em;
+  height: 1em;
+  margin-top: 0.2em;
+  background: white;
+}
+
+.service_img {
+  margin: 10% 0 10% 0;
+}
+
+@media (max-width: 767px) {
+  #column_3 {
+    order: 2;
+  }
+}
+
+@media (max-width: 767px) {
+  #column_2 {
+    order: 3;
+  }
+}
+
+@media (max-width: 767px) {
+  #column_4 {
+    order: 3;
+  }
+}
+
+.footer_margin {
+  padding: 0px;
+  margin: 0px;
+}
+
+@media (max-width: 767px) {
+  #section4 {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  #leader_col1 {
+    order: 2;
+  }
+}
+
+#leader_col2 {
+  order: 1;
+}
+
+@media (min-width: 768px) {
+  #intro-header, #section_0_heading1, #section_0_heading2, #section_1_heading, #section_2_heading, #section_3_heading, #section_4_heading, #section_5_heading, #service_heading {
+    font-size: 4.2vw;
+  }
+}
+
+@media (max-width: 767px) {
+  #section_0_heading1, #section_0_heading2, #section_1_heading, #section_2_heading, #section_3_heading, #section_4_heading, #section_5_heading, #service_heading {
+    font-size: 7vw;
+  }
+}
+
+.footer_social_links {
+  opacity: 1;
+  margin: 0px;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 20px;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px rgba(255,255,255,0.4);
+  margin: 0 10px;
+  color: #fff;
+}
+
+.footer_links {
+  opacity: 1;
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+}
+
+.footer_row > [class*='col-'] {
+  margin: 0px;
+  display: inline-block;
+  position: relative;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #copyright {
+    text-align: right;
+  }
+}
+
