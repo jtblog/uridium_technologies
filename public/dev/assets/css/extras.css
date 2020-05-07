@@ -389,9 +389,85 @@ h4.mobile-services-header {
     max-width: 75%;
 }
 
-}
 
-@media(max-width:768px){
+}
+@media only screen and (min-width: 768px) and (max-width: 1100px) {
+    
+    .intro-desktop h2 {
+        font-size: 34px;
+    line-height: 40px;
+    }
+    .btn-banner-contact {
+        margin-top: 0px;
+        padding: 15px 60px!important;
+        border-radius: 0!important;
+        text-transform: unset!important;
+        font-size: 18px!important;
+        font-weight: 500!important;
+    }
+    .banner-draw {
+        -ms-transform: rotate(15deg);
+        transform: rotate(15deg);
+        width: 100%!important;
+    }
+    .solution-section img {
+        width: 100%;
+    }
+    .solution-header {
+        font-size: 34px;
+        font-weight: 600;
+    
+    }
+    .solution-sub-header {
+        color: white;
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .solution-section .col-sm-2{
+        flex: 15%;
+    max-width: 15%;
+    }
+    .cta-section .offset-md-6{
+        margin-left: 20%;
+    }
+    .cta-section .col-md-6{
+        flex: 0 0 80%;
+        max-width: 80%;
+    }
+    .btn-cta-contact {
+        width: 100%!important;
+        margin: auto;
+        max-width: 100%!important;
+    }
+    .cta-inner-section h1 {
+        font-size: 30px;
+        font-weight: 600;
+        text-align: left;
+    }
+    .about-uridium {
+        display: none;
+    }
+    .cta-section{
+        display: block!important;
+    }
+    .about-declaration {
+        margin-top: 100px;
+        padding: 100px 0 130px;
+    }
+    .service-item h4.card-title {
+        margin-top: 25px;
+        font-size: 23px;
+        line-height: 30px;
+        font-weight: 600;
+    }
+    #service_heading {
+        font-size: 40px;
+        font-weight: 600;
+        max-width: 75%;
+        margin-bottom: 100px;
+    }
+}
+@media(max-width:767px){
     .solution-section img{
         max-width: 100%;
     }
