@@ -187,3 +187,10 @@ String.prototype.replaceAll = function(search, replaceAllment) {
     var target = this;
     return target.split(search).join(replaceAllment);
 };
+$(document).ready(function () {
+	$(".navbar-toggler").click(function () {
+		$('#navcol-1').hide();
+		$("#navcol-1").removeClass("show");
+		$("#mobile_nav").modal('show');
+	})
+});
