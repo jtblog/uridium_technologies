@@ -5,9 +5,9 @@
  * {
     font-family: var(--site-font-family)!important;
   }
-.nav-link{
-    font-size: 20px;
-    font-weight: 700;
+  .nav-link {
+    font-size: 15px;
+    font-weight: 600;
     padding: 10px 15px!important;
     color: #000!important;
 }
@@ -15,7 +15,7 @@
     font-family: 'Material Icons'!important;
     font-weight: 400;
     font-style: normal;
-    font-size: 24px;
+    font-size: 21px;
     display: inline-block;
     line-height: 1;
     text-transform: none;
@@ -27,8 +27,9 @@
     text-rendering: optimizeLegibility;
     -moz-osx-font-smoothing: grayscale;
     font-feature-settings: 'liga';
-    margin-top: 3px;
+    margin-top: 0px;
 }
+
 .fa, .far, .fas {
     font-family: Font Awesome\ 5 Free!important;
 }
@@ -42,10 +43,10 @@
 }
 .intro-desktop{
     max-width: unset!important;
-    margin-top: -80px;
+    /* margin-top: -80px; */
 }
-.btn-banner-contact{
-    margin-top: 50px;
+.btn-banner-contact {
+    margin-top: 25px;
     padding: 15px 60px!important;
     border-radius: 0!important;
     text-transform: unset!important;
@@ -53,24 +54,40 @@
     font-weight: 500!important;
 }
 .intro-desktop h2 {
-    font-size: 57px;
-    line-height: 59px;
+    font-size: 41px;
+    line-height: 49px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.highlight-phone .intro p {
+    margin-bottom: 35px;
+    color: #000;
+    font-size: 15px;
+    font-weight: 600;
 }
 .solution-section {
     padding: 100px 0;
 }
 .solution-header {
-    font-size: 55px;
+    font-size: 45px;
     font-weight: 600;
+    max-width: 88%;
 }
 .solution-content {
     color: white;
-    font-size: 20px;
+    font-size: 16px;
+    max-width: 84%;
 }
-.solution-sub-header{
+.icon-item {
+    color: #fff;
+    font-size: 40px;
+    text-align: center!important;
+    display: block!important;
+}
+.solution-sub-header {
     color: white;
-    font-size: 30px;
-    font-weight: 600;
+    font-size: 25px;
+    font-weight: 500;
 }
 .solution-item{
     padding: 15px 0;
@@ -93,27 +110,27 @@
 }
 .partners-section h1 {
     margin-bottom: 50px;
-    font-size: 55px;
+    font-size: 45px;
     font-weight: 600;
 }
-.cta-inner-section{
- background: #2a7886;
- padding: 100px 80px;
+.cta-inner-section {
+    background: #2a7886;
+    padding: 50px 55px;
     color: #fff;
     border-radius: 50px;
-    font-size: 18px;
+    font-size: 15px;
 }
-.cta-inner-section h1{
-    font-size: 55px;
-    font-weight: 600;
+.cta-inner-section h1 {
+    font-size: 45px;
+    font-weight: 500;
 }
 .cta-section{
     margin-bottom: 50px;
 }
-.btn-cta-contact{
+.btn-cta-contact {
     padding: 10px 30px;
     border-radius: 0!important;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 600;
 }
 .footer-dark {
@@ -122,7 +139,7 @@
     position: relative;
 }
 .footer-menu li a {
-    font-size: 17px;
+    font-size: 15px;
     padding: 0 15px;
     color: #fff;
     opacity: 1;
@@ -131,15 +148,26 @@
 .footer-middle {
     margin-top: 120px;
 }
-.footer-middle h6, .footer-middle p{
-    font-size: 20px;
+.footer-middle h6, .footer-middle p {
+    font-size: 15px;
     line-height: 30px;
 }
 .home-banner-section {
-    margin-top: 150px;
+    padding: 120px 0 135px;
 }
-.services-wrapper{
-    margin-top: 350px;
+.services-wrapper {
+    margin-top: 100px;
+}
+.services-head-title {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+p.services-head-sub-title {
+    max-width: 51%;
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 40px;
 }
 .card-black{
   background: #162b4d;
@@ -152,6 +180,9 @@
 .card-blue{
     background: #0052cc;
     color: #fff;
+}
+.service_img {
+    margin: 4% 0 6% 0;
 }
 .card-red{
     background: #f8615a;
@@ -170,27 +201,41 @@
 }
 .service-item {
     border-radius: 10px;
+    margin-bottom: 30px!important;
+    max-height: 440px;
+    min-height: 440px;
 }
 .service-item h4.card-title {
-    margin-top: 25px;
-    font-size: 28px;
-    line-height: 38px;
+    margin-top: 0px;
+    font-size: 23px;
+    line-height: 35px;
     font-weight: 600;
 }
+
 .service-item p.card-text {
-    font-size: 17px;
+    font-size: 14px;
+    line-height: 21px;
 }
 .service-item .card-body {
-    padding: 40px 25px;
+    padding: 10px 25px;
 }
 .services .fa {
     font: normal normal normal 14px/1 FontAwesome!important;
 }
 .card-link {
-    margin-top: 50px;
+    margin-top: 20px;
     display: block;
     font-weight: 600;
     font-size: 18px;
+}
+.truncate {
+    overflow: hidden;
+    position: relative;
+    line-height: 1.2em;
+    max-height: 6em;
+    margin-right: -1em;
+    padding-right: 1em;
+    margin: 5% 0 20% 0;
 }
 .service-group {
     margin-bottom: 60px;
@@ -203,17 +248,18 @@ h4.mobile-services-header {
     margin-top: 200px;
 }
 #service_heading {
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 600;
-    max-width: 40%;
-    margin-bottom: 150px;
+    max-width: 58%;
+    margin-bottom: 70px;
 }
 .service-details-content h6{
     font-size: 20px;
     margin-bottom: 60px!important;
 }
-#service_paragraph{
+#service_paragraph {
     color: #000!important;
+    font-size: 15px;
 }
 #service_paragraph ul{
     margin-top: 20px;
@@ -222,23 +268,23 @@ h4.mobile-services-header {
     border: none;
 }
 .service-details-content hr {
-    margin-top: 150px;
+    margin-top: 70px;
     border-width: 5px;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
 }
-.about-declaration{
+.about-declaration {
     margin-top: 150px;
-    padding: 150px 0 180px;
+    padding: 75px 0 155px;
 }
 .declaration-header {
-    font-size: 60px;
+    font-size: 45px;
     font-weight: 600;
 }
 
 .declaration-content {
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 600;
-    max-width: 72%;
+    max-width: 73%;
     margin: auto;
     margin-top: 20px;
 }
@@ -248,16 +294,16 @@ h4.mobile-services-header {
 }
 .story-header {
     color: #fff;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 600;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
-.story-content{
+.story-content {
     color: #fff;
-    font-size: 17px;
+    font-size: 14px;
 }
 .story-image {
-    max-height: 680px;
+    max-height: 490px;
     position: relative;
     overflow: hidden;
     object-position: top;
@@ -266,17 +312,26 @@ h4.mobile-services-header {
     padding: 100px 0;
 }
 .values-header {
-    font-size: 60px;
+    font-size: 45px;
     font-weight: 600;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 .values-sub-header {
-    font-size: 18px;
+    font-size: 15px;
 }
 .values-item {
     margin: 0;
     border-radius: 8px;
-    min-height: 400px;
+    /* min-height: 400px; */
+    max-height: 315px;
+    border: navajowhite;
+    box-shadow: 0px 2px 2px 1px #00000026;
+    background: #f6f6f6;
+}
+.values-item .card-text {
+    font-size: 12px;
+    line-height: 22px;
+    color: black;
 }
 .border-red{
     border-top: 30px solid #ff2f6c;
@@ -291,15 +346,16 @@ h4.mobile-services-header {
     margin-top: 50px;
 }
 .values-item .card-body {
-    padding: 30px;
+    padding: 20px 15px;
+    background: #f6f6f6;
 }
 .values-item .card-title {
-    font-size: 30px;
-    font-weight: 800;
+    font-size: 25px;
+    font-weight: 600;
 }
 .leadership-header {
-    font-size: 54px;
-    margin-bottom: 80px;
+    font-size: 45px;
+    margin-bottom: 50px;
     font-weight: 600;
 }
 .leadership-item {
@@ -307,13 +363,14 @@ h4.mobile-services-header {
     position: relative;
 }
 .leadership-item .card-title {
-    font-size: 40px;
+    font-size: 20px;
     text-transform: uppercase;
     font-weight: 600;
-    margin-top: 40px;
+    margin-top: 14px;
+    margin-bottom: 5px;
 }
-.leadership-item .card-text{
-    font-size: 25px;
+.leadership-item .card-text {
+    font-size: 19px;
 }
 .leadership-overlay {
     position: absolute;
@@ -379,16 +436,40 @@ h4.mobile-services-header {
 #member_modal .container {
     max-width: 1100px;
 }
-@media(min-width:1400px){
-    .page .container{
-        max-width: 1350px;
+.row > [class*='col-'] {
+    margin-top: 0;
+}
+.footer-dark .item.text {
+    margin-bottom: 0;
+}
+.d-lg-none{
+    display: none;
+}
+p.hero-subtitle {
+    font-weight: 600;
+    max-width: 600px;
+    margin: 0;
+    padding: 17px 0 17px 10px;
+}
+section#carousel {
+    padding: 80px 0 0px;
+}
+.carousel-inner{
+        box-shadow: 1px 1px 11px 1px #00000029;
+    border-radius: 27px;
+}
+@media only screen and (min-width: 1400px)  {
+    .home-banner-section {
+        padding: 135px 0 150px;
     }
-}
-@media only screen and (max-width: 1400px) and (min-width: 1250px)  {
-.solution-section img{
-    max-width: 75%;
-}
-
+    .about-declaration {
+        margin-top: 150px;
+        padding: 133px 0 213px;
+    }   
+    .about-story {
+        background: #216353;
+        padding: 150px 0;
+    }
 
 }
 @media only screen and (min-width: 768px) and (max-width: 1100px) {
@@ -488,10 +569,11 @@ h4.mobile-services-header {
         display: none;
     }
     .solution-header {
-        font-size: 30px;
-        font-weight: 600;
-        margin-bottom: 50px;
-    }
+    font-size: 29px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    max-width: 100%;
+}
     .col-sm-2 {
         -ms-flex: 0 0 16%;
         flex: 0 0 16%;
@@ -505,11 +587,12 @@ h4.mobile-services-header {
         font-size: 20px;
         font-weight: 600;
     }
-    .solution-content {
-        color: white;
-        font-size: 14px;
-        padding-right: 20px;
-    }
+   .solution-content {
+    color: white;
+    font-size: 12px;
+    padding-right: 20px;
+    max-width: 100%;
+}
     .col-xs-6{
         width: 50%;
         padding: 10px;
@@ -548,9 +631,8 @@ h4.mobile-services-header {
         text-align: left!important;
     }
     .footer-middle {
-        margin-top: 50px;
-       
-    }
+    margin-top: 20px;
+}
     .footer-middle p{
         text-align: left!important;
         color: white!important;
@@ -613,17 +695,17 @@ h4.mobile-services-header {
         margin-top: 80px;
         padding: 82px 0 100px;
     }
-    .declaration-header {
-        font-size: 35px;
-        font-weight: 600;
-    }
+   .declaration-header {
+    font-size: 30px;
+    font-weight: 600;
+}
     .declaration-content {
-        font-size: 17px;
-        font-weight: 500;
-        max-width: 100%;
-        margin: auto;
-        margin-top: 20px;
-    }
+    font-size: 15px;
+    font-weight: 500;
+    max-width: 92%;
+    margin: auto;
+    margin-top: 20px;
+}
     .about-story .col-md-7 {
         padding: 0;
     }
@@ -634,17 +716,19 @@ h4.mobile-services-header {
         margin-bottom: 30px;
     }
     .values-header {
-        font-size: 40px;
-        font-weight: 600;
-        margin-bottom: 30px;
-    }
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
     .about-values {
         padding: 70px 0;
     }
     .values-item {
-      
-        margin-bottom: 20px;
-    }
+    margin-bottom: 20px;
+    max-width: 86%;
+    margin-left: auto;
+    max-height: unset;
+}
     .leadership-header {
         font-size: 35px;
         margin-bottom: 10px;
@@ -680,4 +764,84 @@ h4.mobile-services-header {
     .member-profile{
         text-align: center;
     }
+    div#navcol-1 {
+    display: none;
+}
+.home-banner-section {
+    padding: 70px 0 80px;
+}
+.solution-section img {
+    display: none;
+}
+.solution-section {
+    padding: 50px 20px;
+}
+.icon-item {
+    color: #fff;
+    font-size: 30px;
+    text-align: center!important;
+    display: block!important;
+}
+.footer-dark .item:not(.social) {
+    text-align: center;
+    padding-bottom: 5px;
+}
+.values-item .card-text {
+    font-size: 15px;
+    line-height: 22px;
+    color: black;
+}
+p.services-head-sub-title {
+    max-width: 100%;
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.service-item {
+    border-radius: 10px;
+    margin-bottom: 30px!important;
+    max-height: unset;
+    min-height: unset;
+}
+.container {
+    width: 100%;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.services-head-title {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.d-sm-none{
+    display: none;
+}
+.d-lg-none{
+    display: block;
+}
+.btn-mdl-close {
+    max-width: 30%;
+    margin: auto;
+}
+.mobile-cover {
+    max-width: unset!important;
+    object-position: top;
+    width: 130%;
+    position: relative;
+    left: -20px;
+}
+#carousel .hero-title{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+p.hero-subtitle {
+    font-weight: 500;
+   font-size: 14px;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
 }
