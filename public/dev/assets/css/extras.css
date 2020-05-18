@@ -458,6 +458,39 @@ section#carousel {
         box-shadow: 1px 1px 11px 1px #00000029;
     border-radius: 27px;
 }
+h1.hero-title, h2.hero-title, h3.hero-title {
+    text-shadow: none;
+}
+.r-60::before{
+    right: 60px;
+}
+.r-40::before{
+    right: 40px;
+}
+.carousel-control-prev {
+    left: -80px;
+    font-size: 30px;
+    color: #000!important;
+    opacity: 1!important;
+}
+.carousel-control-prev i.fas {
+    background: #fff;
+    padding: 6.7px 14px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 8px 1px #00000036;
+}
+.carousel-control-next{
+    right: -80px;
+    font-size: 30px;
+    color: #000!important;
+    opacity: 1!important;
+}
+.carousel-control-next i.fas {
+    background: #fff;
+    padding: 6.7px 14px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 8px 1px #00000036;
+}
 @media only screen and (min-width: 1400px)  {
     .home-banner-section {
         padding: 135px 0 150px;
@@ -469,6 +502,9 @@ section#carousel {
     .about-story {
         background: #216353;
         padding: 150px 0;
+    }
+    .services-wrapper {
+        margin-top: 190px;
     }
 
 }
@@ -844,4 +880,22 @@ p.hero-subtitle {
     padding: 20px;
     text-align: center;
 }
+.carousel-control-prev {
+    top: 60px;
+    left: -23px;
+    font-size: 20px;
+    color: #000!important;
+    opacity: 1!important;
+}
+.carousel-control-next{
+    top: 60px;
+    right: -23px;
+    font-size: 20px;
+    color: #000!important;
+    opacity: 1!important;
+}
+.carousel-control-prev i.fas, .carousel-control-next i.fas {
+    padding: 6px 11px;
+}
+
 }
