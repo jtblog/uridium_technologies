@@ -491,6 +491,10 @@ h1.hero-title, h2.hero-title, h3.hero-title {
     border-radius: 50%;
     box-shadow: 1px 1px 8px 1px #00000036;
 }
+.member-image {
+    max-height: 400px;
+    overflow: hidden;
+}
 @media only screen and (min-width: 1400px)  {
     .home-banner-section {
         padding: 135px 0 150px;
