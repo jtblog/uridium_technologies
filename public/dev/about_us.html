@@ -177,18 +177,30 @@
             <h1 class="text-center leadership-header">Leadership</h1>
             <div class="leadership-lists">
                 <div class="row ">
-                    <div class="col-lg-4">
+                    <div class="col-lg-6">
                         <div class="card leadership-item">
                             <div class="leadership-overlay">
                                 <h4><a href="javascript:open_member_modal('ceo')">See more</a></h4>
                             </div>
-                            <div class="card-body"><img src="assets/img/image_13_ek1.png" style="width: 100%;">
+                            <div class="card-body"><img src="assets/img/johnson.jpg" style="width: 100%;">
                                 <h4 class="text-center card-title">Adewusi Johnson</h4>
                                 <p class="text-center card-text">CEO</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-6">
+
+                        <div class="card leadership-item">
+                            <div class="leadership-overlay">
+                                <h4><a href="javascript:open_member_modal('cto')">See more</a></h4>
+                            </div>
+                            <div class="card-body"><img src="assets/img/victor.jpg" style="width: 100%;">
+                                <h4 class="text-center card-title">Victor Maduike</h4>
+                                <p class="text-center card-text">CTO</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="col-lg-4">
 
                         <div class="card leadership-item">
                             <div class="leadership-overlay">
@@ -199,19 +211,7 @@
                                 <p class="text-center card-text">COO</p>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4">
-
-                        <div class="card leadership-item">
-                            <div class="leadership-overlay">
-                                <h4><a href="javascript:open_member_modal('coo')">See more</a></h4>
-                            </div>
-                            <div class="card-body"><img src="assets/img/image_13_ek1.png" style="width: 100%;">
-                                <h4 class="text-center card-title">Ayotunde Itayemi</h4>
-                                <p class="text-center card-text">COO</p>
-                            </div>
-                        </div>
-                    </div>
+                    </div> -->
                 </div>
 
             </div>
@@ -444,20 +444,19 @@
             switch (position) {
                 case "ceo":
                     name = "<h1>Johnson Adewusi</h1>";
-                    profile = "<p>Johnson is a very brilliant sales expert, with international experience in IT spanning over a decade. Having worked for corporations such as Computer Warehouse and IBM, and holding the position of Country Manager for Commvault Systems Inc. in West Africa, he has gathered a mammoth of experience in the technology industry.</p>" +
-                        "<p>He has been involved in several IT projects, ranging from Infrastructure to Application and Managed services.</p>" +
+                    profile = "<p>Johnson is a very brilliaant sales expert, with international experience in IT spanning over a decade. Having worked for corporations such as Computer Warehouse and IBM, and holding the position of Country Manager for Commvault Systems Inc. in West Africa, he has gathered a mammoth of experience in the technology industry.</p>" +
+                        "<p>He has been involved in several IT projects, ranging from Infrastructure to Application and Managed services. </p>" +
                         "<p>His major passion lies in customer satisfaction, and he would stop at nothing to ensure his clients get the best service.</p>";
-                    image = '<img src="assets/img/image_13_ek1.png">';
+                    image = '<img src="assets/img/johnson.jpg">';
                     fullPosition = "<h4>MD/CEO</h4>";
                     break;
-                case "coo":
-                    name = "<h1>Ayotunde Itayemi</h1>";
-                    profile = "<p>A dedicated and hard working staff of uridiumtechnologies limited</p>" +
-                        "<p>Having worked for corporations such as Computer Warehouse and IBM, and holding the position of Country Manager for Commvault Systems Inc. in West Africa, he has gathered a mammoth of experience in the technology industry.</p>" +
-                        "<p>He has been involved in several IT projects, ranging from Infrastructure to Application and Managed services.</p>" +
-                        "<p>His major passion lies in customer satisfaction, and he would stop at nothing to ensure his clients get the best service.</p>";
-                    image = '<img src="assets/img/image_13_ek1.png">';
-                    fullPosition = "<h4>COO</h4>";
+                case "cto":
+                    name = "<h1>Victor Maduike</h1>";
+                    profile = "<p>Victor Maduike is a Technology Solution Expert with over 9 years of experience in the ICT Industry across different roles. </p>" +
+                        "<p>At Uridium, he supervises the overall Technical Team, Projects and Research and Development Team. He is Microsoft certified, Cisco Certified, Huawei certified, Oracle certified etc. </p>" +
+                        "<p>He is a tested professional, whose achievements have been well established in the industry with Project Management Professional skill, Microsoft Certified Solution Expert (MCSE), Microsoft Certified IT Professional (MCITP) and Microsoft Certified Trainer (MCT), MCSA Windows Server 2012, also, IBM and Cisco certified professional.</p>";
+                    image = '<img src="assets/img/victor.jpg">';
+                    fullPosition = "<h4>Chief Technology Officer</h4>";
                     break;
 
                 default:
